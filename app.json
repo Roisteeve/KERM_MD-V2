@@ -1,5 +1,5 @@
 {
-    "name": "Kerm_Md-V2",
+    "name": "~ ₉₀₀₃",
     "description": "Simple WhatsApp Bot🤖",
     "logo": "https://telegra.ph/file/dc5657036b53a3613d4f7.jpg",
     "keywords": ["Kg Tech", "Kerm Md", "Kerm_Md-V2"],
@@ -9,14 +9,14 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Kg Tech",
+        "value": "~ ₉₀₀₃",
         "required": true
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "USER_IMAGES": {
         "description": "Menu Images",
@@ -26,12 +26,12 @@
   
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "MENU": {
         "description": "choose 1, 2, 3",
-        "value": "1"
+        "value": "2"
       },
       "THUMB_IMAGE": {
         "description": "Thumbnail",
@@ -39,8 +39,8 @@
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
-        "required": false,
-        "value": "*ᵏᵍ┘𝙺𝙴𝚁𝙼_𝙼𝙳_𝚅𝟸𖤐*"
+        "required": true,
+        "value": "~ ₉₀₀₃"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -49,8 +49,8 @@
       },
       "READ_COMMAND": {
         "description": " Read bot cmds",
-        "required": false,
-        "value": "false"
+        "required": true,
+        "value": "true"
       },
       "WARN_COUNT": {
         "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -74,12 +74,12 @@
       },
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-        "required": false,
-        "value": "unavailable"
+        "required": true,
+        "value": "recording"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
-        "required": false,
+        "required": true,
         "value": "true"
       },
       "MSGS_IN_LOG": {
@@ -103,25 +103,25 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "237656520674"
+        "value": "50937042801"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia1BFNnVjc2FhSVVEWm9IanNzTHhLY3B1THNiak9lUVlrbHZJRlFUaDhrcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRERjak92U2xlcmlZOHhxODBWc0srTDF2T1RsQmpOUGRyc0hjdDl1K3NIZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrREtTWCtKcTBuWW9xK2tqQ1NVSmdIcDRxVDludUw1emsxOHptdTZLVDBJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJsYlcvRGF3SUNSUjRodmR1cmpvTEJsdEVkelhyRFdlYys3SHFNekpPUEEwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhKNFN3am4wa0xVc09YcEg1R24vVWxOamxQNDhBV1FJMkVkbk5PeThmbEk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpQWWhFMDYvS0c0K3NYQjkyVDl3TE56dXIxZmp2alBFTGVTcGI2NERkZ0E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0o1WENqUGJmRmlCQk85Njc1ODdPTHJDU3VRU3JVdWtURUxQNyt4aHBVST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid3NRalltT1JscCtFM1V6Rmx1QTFxUStCaEdtZTV3ekdVVk5wOE8rbnBpUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IitjWDZMQmo1eFJRa0hDZ3AySHNoWWR3TTZRcHpnTlhqVTZvRXBUUStSQjdoYzdBa2ZnQlFnVzYyL0xqRlk2c3duTVZjN3lEUW12TWRpMGZiTTArbER3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NDgsImFkdlNlY3JldEtleSI6Im5HMmw2OXlMejMvNVF3TnBrOE9MbDlqL0psTW14YjJhQU45aXVJNWQrc3M9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6Im9ndmlMLTdCUm0tRW55TFpoOHVuSmciLCJwaG9uZUlkIjoiMmM0NDNkOWMtYzY1Zi00ZTk5LWEwM2YtMzUxOTQzZjg5NDZkIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNWREZFN0Y1K1pueThoaTA5UmY1c0dKcUltUT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJiS1ZWb3hnN2RraHpCSGRSRFB4V2pBU2ozRWM9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiUFFEU1ZSSkIiLCJtZSI6eyJpZCI6IjUwOTM3MDQyODAxOjk3QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQV2tzWDRRa2ZLQXVBWVlBU0FBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJ6RXVoYWk1eW1xNDBsUUZvWEc5Y1hpcHU4cUhYNzlJeWhSOXRMbEYxRWtJPSIsImFjY291bnRTaWduYXR1cmUiOiI5ZkcrczhEOXFCMU90anMvNlVTWlRPNGJGVW5FMVE1ei82OXhWeldtQnkwMG00Tk91cUN3L3lROXgzUGtCZDdYeER1Kzc4Qm42OGR3Q1BDM3dwVFBBdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQW9pTzg1NW55NUQzVjZMNlVtNmY4OGxCd0djMWQ0dVVGblNwMzFQUFJzdEZMYlhNY0grdGZOVFlxV0tRZ3FkVW8vZlZ0MkVwUzg5NlZJWG9BUEJkQ0E9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDkzNzA0MjgwMTo5N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJjeExvV291Y3BxdU5KVUJhRnh2WEY0cWJ2S2gxKy9TTW9VZmJTNVJkUkpDIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzI4MDY3ODcxfQ=="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "public"
+        "value": "private"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "*ᵏᵍ┘𝙺𝙴𝚁𝙼_𝙼𝙳_𝚅𝟸𖤐*",
+        "value": "~ ₉₀₀₃",
         "required": false
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "KgTech",
-        "required": false
+        "value": "~ ₉₀₀₃",
+        "required": true
       }  
   },
   
